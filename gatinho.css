@@ -1,0 +1,87 @@
+/* Resetando margens e padding para garantir um estilo uniforme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do body */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ffaad4, #ffd1dc);
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Container principal com o fundo e centralização */
+.background {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo das cenas */
+.scene {
+    display: block;
+    margin: 20px 0;
+}
+
+/* Estilo do gatinho e gatinha */
+.cat img, .cat-lady img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+/* Botões estilizados */
+button {
+    background-color: #ff62a1;
+    color: white;
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #ff4090;
+}
+
+/* Estilo da carta de amor */
+.letter {
+    background-color: #fff5f5;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Conteúdo da carta */
+.letter-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+    margin: 10px 0;
+    text-align: left;
+}
+
+.letter-content p:first-child {
+    font-weight: bold;
+}
+
+/* Transições suaves para exibição das etapas */
+.scene, .letter {
+    transition: all 0.5s ease-in-out;
+}

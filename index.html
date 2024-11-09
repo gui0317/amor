@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surpresa Romântica</title>
+    <link rel="stylesheet" href="gatinho.css">
+</head>
+<body>
+    <div class="background">
+        <!-- Etapa 1: Gatinho entregando o presente -->
+        <div class="scene" id="step1">
+            <div class="cat">
+                <!-- Imagem do Gatinho -->
+                <img src="https://i.pinimg.com/736x/0b/e6/07/0be607c1e11f6b6e1f06fb17892a569d.jpg" alt="Gatinho">
+            </div>
+            <button onclick="showStep(2)">Clique para Surpresa 💝</button>
+        </div>
+        
+        <!-- Etapa 2: Gatinha recebe o presente -->
+        <div class="scene" id="step2" style="display: none;">
+            <div class="cat-lady">
+                <!-- Imagem da Gatinha -->
+                <img src="https://i.pinimg.com/564x/55/5a/9d/555a9dec1617d43616dd6f11b0f97d8c.jpg" alt="Gatinha">
+            </div>
+            <button onclick="showStep(3)">Abrir Presente 🎁</button>
+        </div>
+        
+        <!-- Etapa 3: Mostrar carta de amor -->
+        <div class="letter" id="step3" style="display: none;">
+            <div class="letter-content">
+                <p>Minha doce gatinha,</p>
+                <p>Cada momento ao seu lado é um presente que a vida me deu. Você preenche meus dias de alegria, e o simples fato de pensar em você faz meu coração bater mais forte. Não há palavras suficientes para expressar o quanto sou grato por te ter em minha vida.</p>
+                <p>Você é minha inspiração, minha razão de sorrir, e tudo o que eu mais desejo é ver seu sorriso brilhar a cada amanhecer.</p>
+                <p>Com todo o meu amor, para sempre seu gatinho, que te ama mais a cada dia. 💖</p>
+            </div>
+        </div>
+    </div>
+    <script src="gatinho.js"></script>
+</body>
+</html>
